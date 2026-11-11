@@ -1,0 +1,47 @@
+Welcome to the Regex Onboarding Hackathon sample feed.
+
+Please email support at user@example.com or reach the lead at
+firstname.lastname@company.co.uk for account help.
+
+Useful links:
+https://www.example.com
+https://subdomain.example.org/page
+http://blog.example.net/posts/intro
+
+Phone contacts on file:
+(123) 456-7890
+123-456-7890
+123.456.7890
+Also a bad phone like 12-34 should be ignored.
+
+Payment cards on this page:
+1234 5678 9012 3456
+1234-5678-9012-3456
+
+Schedule notes:
+Server restart at 14:30
+Standup is at 2:30 PM
+Another reminder for 09:05 am
+
+Markup snippets from crawled pages:
+<p>
+<div class="example">
+<img src="image.jpg" alt="description">
+
+Social mentions:
+#example
+#ThisIsAHashtag
+#ALUHackathon
+
+Product prices:
+$19.99
+$1,234.56
+$5
+$999.00
+
+Malformed / edge cases that should not fully match as valid values:
+not-an-email
+www.missing-scheme.com
+# (empty hashtag)
+$ (no amount)
+1234567890123456
