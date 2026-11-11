@@ -1,4 +1,4 @@
-# alu_regex-data-extraction-whiterose
+# alu_regex-data-extraction-whiterose-arch
 
 Formative One – Regex Onboarding Hackathon
 
@@ -22,7 +22,7 @@ All eight patterns from the assignment are implemented so the extractor covers t
 ## Project structure
 
 ```
-alu_regex-data-extraction-whiterose/
+alu_regex-data-extraction-whiterose-arch/
 ├── README.md
 ├── regex_patterns.py   # All regex patterns
 ├── data_extractor.py   # Main script that runs the extraction
@@ -39,8 +39,8 @@ alu_regex-data-extraction-whiterose/
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/alu_regex-data-extraction-whiterose.git
-cd alu_regex-data-extraction-whiterose
+git clone https://github.com/whiterose-arch/alu_regex-data-extraction-whiterose-arch.git
+cd alu_regex-data-extraction-whiterose-arch
 ```
 
 2. Run the extractor on the sample file:
@@ -89,4 +89,4 @@ When you run `python data_extractor.py`, you should see groups like:
 
 ## Author
 
-whiterose — ALU Formative One (Regex Onboarding Hackathon)
+whiterose-arch — ALU Formative One (Regex Onboarding Hackathon)
